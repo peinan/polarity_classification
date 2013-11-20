@@ -32,7 +32,7 @@ def parseReviews(rfile):
 		print rtext[i]
 	# print id, len(id)
 
-	output_file = open("fixed_review.txt", "w")
+	output_file = open("fixed.review", "w")
 	# print type(rtext[0]), type(id[0]), type(rating[0])
 	for i in range(len(id)):
 		# print type(rtext[0])
